@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+	<title>Glory Coffee</title>
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<link rel="stylesheet" href="css/estilos.css">
+	<link rel="stylesheet" href="style.css">
+	<link rel="icon" href="imgs/favicon.ico">
+</head>
+<body>
+<header>
+	<nav class="navbar navbar-default" role="navigation">
+		<div class="container-fluid">
+			<!-- Brand and toggle get grouped for better mobile display -->
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="index.html">WebSite Oficial</a>
+			</div>
+	
+			<!-- Collect the nav links, forms, and other content for toggling -->
+			<div class="collapse navbar-collapse navbar-ex1-collapse">
+				<ul class="nav navbar-nav">
+					<li><a href="index.html"><span class="icon-home"></span> Inicio</a></li>
+					<li><a href="producto.html"><span class="icon-mug"></span> Productos</a></li>
+					<li class="active"><a href="contactanos.html"><span class="icon-phone"></span> Contactanos</a></li>
+				</ul>
+				<ul class="nav navbar-nav navbar-right">
+					<li class="dropdown">
+						<a href="#" class="dropdown-toggle" data-toggle="dropdown"><span class="glyphicon glyphicon-flag"></span> Idioma <b class="caret"></b></a>
+						<ul class="dropdown-menu">
+							<li class="active"><a href="#">Español Latino</a></li>
+							<li><a href="#">Ingles</a></li>
+						</ul>
+					</li>
+					<li><a href=""><span class="glyphicon glyphicon-off"></span> Salir de la pagina</a></li>
+				</ul>
+			</div><!-- /.navbar-collapse -->
+		</div>
+	</nav>
+</header>
+<br>
+<section>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h2>Envianos un Mensaje</h2>
+			<h5>Nos preocupamos por brindarte un buen servicio, dejanos tu mensaje, dudas o sugerencias.</h5>
+			<hr>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-md-6">
+				<h5><label for="name"><span class="glyphicon glyphicon-user"></span> Nombre Completo.</label></h5>
+				<h5><input class="form-control" id="name" type="text" placeholder="Escribe tus nombres y apellidos"></h5>
+				<h5><label for="phone"><span class="glyphicon glyphicon-phone"></span> Número de teléfono.</label></h5>
+				<h5><input class="form-control" id="phone" type="text" placeholder="Escribe tu número de telefono"></h5>
+				<h5><label for="correo"><span class="glyphicon glyphicon-envelope"></span> Correo electrónico.</label></h5>
+				<h5><input class="form-control" id="correo" type="text" placeholder="Escribe tu correo electrónico"></h5>
+				<h5><label for="mensaje"><span class="glyphicon glyphicon-comment"></span> Ménsaje</label></h5>
+				<h5><textarea class="form-control" id="mensaje" placeholder="Dejanos tu mensaje"></textarea></h5>
+				<h5 align="right"><button class="btn btn-danger" onclick="cancelar"><span class="glyphicon glyphicon-remove-circle"></span> Cancelar</button>
+				<button class="btn btn-default" onclick="enviar"><span class="glyphicon glyphicon-chevron-right"></span> Enviar Mensaje</button></h5>
+			</div>
+		</div>
+		</div>
+	</div>
+	</div>
+	<br>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<h3>Visitanos en nuestras redes sociales</h3>
+		</div>
+	</div>
+	</div>
+	<div class="container">
+	<div class="row">
+		<div class="col-md-12">
+			<table class="table">
+				<tr>
+					<td><span class="icon-facebook"></span> Facebook</td>
+					<td><a href="https://www.facebook.com/Glory-Coffee-Oficial-136833220409075/" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Visitar</a></td>
+				</tr>
+				<tr>
+					<td><span class="icon-google-plus"></span> Google +</td>
+					<td><a href="https://plus.google.com/u/0/115520798932567113415" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Visitar</a></td>
+				</tr>
+				<tr>
+					<td><span class="icon-pinterest"></span> Pinterest</td>
+					<td><a href="https://www.pinterest.es/glorycoffee07/" class="btn btn-default"><span class="glyphicon glyphicon-search"></span> Visitar</a></td>
+				</tr>
+			</table>
+		</div>
+	</div>
+	</div>
+</section>
+<footer>
+	<div class="container">
+		<div class="row">
+			<div class="col-md-12">
+			<br>
+				<h5 align="center">© GloryCoffee 2017. Derechos Reservados</h5>
+			<br>
+			</div>
+		</div>
+	</div>
+</footer>
+
+<script src="js/jquery.js"></script>
+<script src="js/bootstrap.min.js"></script>
+
+</body>
+</html>

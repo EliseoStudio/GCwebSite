@@ -1,0 +1,20 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body{
+	background: #2f2f2f;
+	color: #fff;
+}
+
+footer {
+	background: #222222;
+	color: #b1b1b1;
+}
+
+.mycolor {
+	background: #ffffff;
+	color: #222222;
+}
